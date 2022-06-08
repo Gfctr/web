@@ -1,5 +1,5 @@
 # Bem Maior
-Projeto desenvolvido para facilitar a criação de placas de ofertas em PDF através de um formulário.
+Projeto desenvolvido para facilitar o acompanhamento de alguns recursos dentro da empresa, como armazenamento de alguns discos, download da última versão da 2075 Winthor TOTVS, download do CliSitef e status do último backup.
 
 ![Alt text](./assets/img/index.png?raw=true "Index")
 ![Alt text](./assets/img/balanca.png?raw=true "Página alterar dados balança toledo")
