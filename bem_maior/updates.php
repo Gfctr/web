@@ -82,6 +82,7 @@
 							</li>
 						</ul>
 					</div>
+				</li>
 			</ul>
 		</div>
 	</div>
@@ -105,10 +106,9 @@
 					<?php $version = file_get_contents('../version.php');
 					echo $version; ?>
 				</div>
+				
 				<div class="collapse navbar-collapse">
-
 					<form class="navbar-form navbar-left navbar-search-form" role="search">
-
 				</div>
 			</div>
 		</nav>
@@ -545,11 +545,9 @@
 							</div>
 						</div>
 					</div>
-
 				</div>
 			</div>
 		</div>
-
 	</div>
 	</div>
 </body>

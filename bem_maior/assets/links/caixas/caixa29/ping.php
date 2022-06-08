@@ -22,7 +22,7 @@ class Caixa29
     }
 }
 
-$ip_addr = "10.1.1.219";
+$ip_addr = "172.16.10.29";
 
 if ((new Caixa29())->ping($ip_addr))
     echo '<button id="open9" class="btn btn-success btn-xs success-button" type="button" onclick="anydesk9()">On-line</button>';

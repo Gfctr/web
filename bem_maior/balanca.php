@@ -120,20 +120,20 @@
 							<div class="card-content">
 
 								<?php
-								if (file_exists("//10.1.1.10/toledo/ITENSMGV.txt")) {
+								if (file_exists("C:/toledo/ITENSMGV.txt")) {
 
-									$source_file = '//10.1.1.10/toledo/ITENSMGV.txt';
-									$dest_file = '//10.1.1.10/toledo/.backup/ITENSMGV.txt';
+									$source_file = 'C:/toledo/ITENSMGV.txt';
+									$dest_file = 'C:/toledo/.backup/ITENSMGV.txt';
 
 									date_default_timezone_set("America/Sao_Paulo");
 									$databackup = date("d-m-Y H-i-s");
 
 									if (!is_file($dest_file)) {
 										copy($source_file, $dest_file);	
-										rename("//10.1.1.10/toledo/.backup/ITENSMGV.txt", "//10.1.1.10/toledo/.backup/ITENSMGV $databackup.txt");
+										rename("C:/toledo/.backup/ITENSMGV.txt", "C:/toledo/.backup/ITENSMGV $databackup.txt");
 									}
 
-									$arquivo = file('//10.1.1.10/toledo/ITENSMGV.txt');
+									$arquivo = file('C:/toledo/ITENSMGV.txt');
 									foreach ($arquivo as $indice => $conteudo) {
 										$novo[] = $conteudo;
 									}
@@ -150,7 +150,7 @@
 									}
 
 									$str = implode("", $arqnovo);
-									$name = '//10.1.1.10/toledo/ITENSMGV.txt';
+									$name = 'C:/toledo/ITENSMGV.txt';
 									$file = fopen($name, 'w+');
 									fwrite($file, $str);
 									fclose($file);

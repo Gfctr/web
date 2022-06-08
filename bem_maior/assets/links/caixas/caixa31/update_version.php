@@ -30,9 +30,9 @@ function custom_copy($src, $dst) {
 	closedir($dir); 
 } 
 
-$src = "//10.1.1.10/Instalaveis/2075/"; 
+$src = "//172.16.10.10/Instalaveis/2075/"; 
 
-$dst = "//10.1.1.221/mod-020/"; 
+$dst = "//172.16.10.31/mod-020/"; 
 
 custom_copy($src, $dst);
 }

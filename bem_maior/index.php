@@ -102,7 +102,7 @@
 					<a class="navbar-brand" href="#Dashboard">
 						Visão
 					</a>
-					<?php $version = file_get_contents('../version.php');
+					<?php $version = file_get_contents('./version.php');
 					echo $version; ?>
 				</div>
 				<div class="collapse navbar-collapse"></div>
@@ -126,7 +126,7 @@
 										<div class="numbers">
 											<p>SRV AD</p>
 											<?php
-											$df = round(disk_free_space("//10.1.1.10/Instalaveis") / 1024 / 1024 / 1024);
+											$df = round(disk_free_space("C:") / 1024 / 1024 / 1024);
 											print("$df GB");
 											?>
 										</div>
@@ -160,7 +160,7 @@
 										<div class="numbers">
 											<p>SRV SISTEMA</p>
 											<?php
-											$df = round(disk_free_space("//10.1.1.200/sistema") / 1024 / 1024 / 1024);
+											$df = round(disk_free_space("G:") / 1024 / 1024 / 1024);
 											print("$df GB");
 											?>
 										</div>
@@ -261,14 +261,11 @@
 											<p>Backup Cloud</p>
 
 											<?php
-											$today = date("d");
 											$yesterday = date("d") - 1;
 											$month = date("m");
 
-											if (file_exists('//10.1.1.200/export/cloud/USER_FULL_WINT_0' . $yesterday . $month . '22_2035.tar.gz')) {
+											if (file_exists('C:/users/administrador/backup/banco'.$yesterday.$month.'.tar.gz')) {
 												echo '<img src="./assets/icons/success.svg" alt="regra0" width="25%">';
-											} elseif (file_exists('//10.1.1.200/export/cloud/USER_FULL_WINT_' . $yesterday . $month . '22_2035.tar.gz')) {
-												echo '<img src="./assets/icons/success.svg" title="regra1" alt="regra1" width="25%">';
 											} else {
 												echo '<img src="./assets/icons/error.svg" alt="" width="25%">';
 											}
@@ -284,18 +281,11 @@
 									<div class="pull-right" style="position:relative; display:inline-block;">
 										<i class="fa fa-question-circle" data-toggle="tooltip" data-placement="left" rel="tooltip" title="
 											<?php
-											$today = date("d");
 											$yesterday = date("d") - 1;
 											$month = date("m");
-											$year = date("y");
-
-											if (file_exists('//10.1.1.200/export/cloud/USER_FULL_WINT_0' . $yesterday . $month . '22_2035.tar.gz')) {
-												$file = ('//10.1.1.200/export/cloud/USER_FULL_WINT_0' . $yesterday . $month . '22_2035.tar.gz');
-												$fileSizeBytes = filesize($file);
-												$fileSizeGB = ($fileSizeBytes / 1024 / 1024 / 1024);
-												echo $fileSizeGB . " GB";
-											} elseif (file_exists('//10.1.1.200/export/cloud/USER_FULL_WINT_' . $yesterday . $month . '22_2035.tar.gz')) {
-												$file = ('//10.1.1.200/export/cloud/USER_FULL_WINT_' . $yesterday . $month . '22_2035.tar.gz');
+											
+											if (file_exists('C:/users/administrador/backup/banco'.$yesterday.$month.'.tar.gz')) {
+												$file = ('C:/users/administrador/backup/banco'.$yesterday.$month.'.tar.gz');
 												$fileSizeBytes = filesize($file);
 												$fileSizeGB = ($fileSizeBytes / 1024 / 1024 / 1024);
 												echo $fileSizeGB . " GB";
@@ -381,7 +371,6 @@
 	$(document).ready(function() {
 		demo.initOverviewDashboard();
 		demo.initCirclePercentage();
-
 	});
 </script>
 

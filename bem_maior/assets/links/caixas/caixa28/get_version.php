@@ -1,6 +1,6 @@
 <?php
-if (file_exists("//10.1.1.218/mod-020/PCSIS2075.ass")) {
-	$url = '//10.1.1.218/mod-020/PCSIS2075.ass';
+if (file_exists("//172.16.10.28/mod-020/PCSIS2075.ass")) {
+	$url = '//172.16.10.28/mod-020/PCSIS2075.ass';
 	$dadosSite = file_get_contents($url);
 	$var1 = explode('<versao>', $dadosSite);
 	$var2 = explode('</versao>', $var1[1]);
