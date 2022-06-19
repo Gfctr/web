@@ -1,2 +1,2 @@
 # web
-Códigos html, css3, js2
+Códigos HTML, CSS3, JS
