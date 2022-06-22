@@ -16,9 +16,14 @@
         </div>
 
         <div class="footer">
-            <p><b>v1.20 25/12/2021</b>: correção de bugs e melhorias. <br>
-            <b>v1.19 04/11/2021</b>: correção de bugs e melhorias.</p>
+            <p>
+                <b>v1.20 25/12/2021</b>: correção de bugs e melhorias. <br>
+                <b>v1.19 04/11/2021</b>: correção de bugs e melhorias. <br>
+                <b>v1.20 22/06/2022</b>: correção de bugs e melhorias.
+            </p>
+            <button class="button-placa-log"><a href="./" class="font-placas">Voltar</a></button>
         </div>
+
 
     </div>
 </body>

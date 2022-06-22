@@ -113,6 +113,18 @@ input[type="submit"] {
     margin-bottom: 5px;
 }
 
+.button-placa-log {
+    background-color: #098e00;
+    color: #fff;
+    padding: 5px 10px;
+    border: 0;
+    font-size: 15px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 20px auto;
+    display: block;
+}
+
 .logo {
     width: 40%;
 }
