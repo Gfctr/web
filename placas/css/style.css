@@ -1,0 +1,314 @@
+.index {
+    background-color: #ddd;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.main-block {
+    display: table;
+    margin: 50px auto 0;
+    background-color: #fff;
+    width: 100%;
+    max-width: 450px;
+    border-radius: 5px;
+}
+
+.main-block>.header {
+    background: #ffffff url(bk2.jpg) center center no-repeat;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 40px 0;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
+    color: #0D4A83;
+}
+
+.main-block>.body {
+    padding: 20px 20px;
+}
+
+.main-block>.footer {
+    border-top: 1px solid #ddd;
+}
+
+.main-block>.footer p {
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    font-size: 12px;
+}
+
+input[type="text"] {
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 2px;
+    color: #333;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    display: block;
+    float: none;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    padding: 6px 10px;
+    height: 40px;
+    width: 100%;
+    line-height: 1.3;
+    margin: 0 0 5px;
+}
+
+input[type="number"] {
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 2px;
+    color: #333;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    display: block;
+    float: none;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    padding: 6px 10px;
+    height: 40px;
+    width: 100%;
+    line-height: 1.3;
+    margin: 0 0 5px;
+}
+
+input[type="submit"] {
+    background-color: #0a9e00;
+    color: #fff;
+    padding: 5px 10px;
+    border: 0;
+    font-size: 15px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.button-placa {
+    background-color: #098e00;
+    color: #fff;
+    padding: 5px 10px;
+    border: 0;
+    font-size: 15px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.button-placas {
+    background-color: #098e00;
+    padding: 5px 10px;
+    width: 60%;
+    border: 0;
+    font-size: 15px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.logo {
+    width: 40%;
+}
+
+.logo-pmav {
+    width: 20%;
+    margin-bottom: -27px;
+}
+
+.logo-pm {
+    width: 20%;
+    margin-bottom: -27px;
+}
+
+.logo-verdura {
+    width: 30%;
+}
+
+.logo-preco {
+    width: 85%;
+    margin-top: 7%;
+}
+
+.logo-preco-verdura {
+    width: 55%;
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.logo-preco-pmva {
+    width: 42%;
+    margin-top: 3px;
+}
+
+.pdf {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+.texto {
+    font-size: 60px;
+    font-weight: bolder;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+.texto-verdura {
+    font-size: 80px;
+    font-weight: bolder;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+
+.texto-pmva {
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: 0px;
+    text-transform: uppercase;
+}
+
+.texto-pm {
+    font-size: 28px;
+    font-weight: bolder;
+    margin-top: 0px;
+    text-transform: uppercase;
+}
+
+.texto-pmva-calc {
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: -25px;
+    text-transform: uppercase;
+}
+
+.texto-footer {
+    font-size: 54px;
+    font-weight: bolder;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.texto-footer-verdura {
+    font-size: 80px;
+    font-weight: bolder;
+    position: absolute;
+    bottom: -100px;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.texto-footer-branco {
+    font-size: 60px;
+    font-weight: bolder;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-transform: uppercase;
+}
+
+.container {
+    position: relative;
+}
+
+.texto-preco-pg {
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 73px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.texto-preco-verdura {
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.texto-preco-pgva {
+    position: absolute;
+    top: 128px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.texto-preco-pm {
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.texto-preco-pmva {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.font-placas {
+    text-decoration: none;
+    color: white;
+}
+
+.linha {
+    width: 100%;
+    margin-top: -20px;
+    margin-bottom: 40px;
+}
+
+.linha-pm {
+    width: 100%;
+    margin-top: -50px;
+    margin-bottom: 40px;
+}
+
+
+/*
+NÃO USADOS MAIS, MAS JÁ FORAM USADOS
+.texto-preco-pgva1 {
+    position: absolute;
+    top: 101px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.texto-preco-pgva2 {
+    position: absolute;
+    top: 151px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    font-weight: bolder;
+}
+*/
