@@ -1,4 +1,4 @@
-# projeto-form-em-pdf
+# Projeto: placa de preços de oferta
 Projeto desenvolvido para facilitar a criação de placas de ofertas em PDF através de um formulário.
 
 ![Alt text](./files/index.png?raw=true "Index")
